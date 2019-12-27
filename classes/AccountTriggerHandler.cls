@@ -65,7 +65,8 @@ public class AccountTriggerHandler implements ITriggerHandler{
         // getTopLevelParent(newItems.values());
         System.Debug('Account Trigger Before Update '); 
         System.Debug('Account Trigger Is Executing ' + AccountCreateController.isTriggerExecuting); 
-        System.Debug('Account Trigger first Run ' + AccountCreateController.isFirstRun); 
+        System.Debug('Account Trigger first Run ' + AccountCreateController.isFirstRun);
+	    //comment added
         List<Account> newAccounts= newItems.values();     
         system.debug('newAccounts----' + newAccounts);      
         
