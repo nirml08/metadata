@@ -35,7 +35,7 @@ public class AccountTriggerHandler implements ITriggerHandler{
         
         //Method to populate top level parent
         // getTopLevelParent(newItems);
-        
+        //hello
         // update the currency of newly created account according to the table in custom settings
         List<Account> newAccnts= newItems;     
         for (Account a : newAccnts) { 
