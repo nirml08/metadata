@@ -16,6 +16,7 @@ trigger AccountTrigger on Account (after delete, after insert, after undelete, a
 {
     // Added to prevent trigger from firing when change is due to Overcast inbound data
     if (!overcast.ObjectMapping.InboundMappingIsRunning) {
+    //hello world
         TriggerDispatcher.run(new AccountTriggerHandler());
     }
 }
