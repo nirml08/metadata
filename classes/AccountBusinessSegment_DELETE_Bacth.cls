@@ -27,7 +27,7 @@ global class AccountBusinessSegment_DELETE_Bacth implements DataBase.Batchable<s
         	delete prodLineList;
         }
     }
-    
+    //hello
     global void finish(DataBase.BatchableContext BC){
         AccountBusinessSegment_Batch_NEW schedule = new AccountBusinessSegment_Batch_NEW();
         database.executeBatch(schedule,200);
